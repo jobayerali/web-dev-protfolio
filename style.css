@@ -1,0 +1,144 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.header-bg{
+    background-image: url(imgs/background.avif);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-title{
+    font-weight:800;
+    font-size: 50px;
+    margin-left:50px ;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+    /* gap: 10px; */
+}
+
+/* shared style */
+.skill-imgs{
+    height: 80px;
+    width: 80px;
+}
+.text-center{
+    text-align:center;
+}
+
+.cecondary-bg{
+    background-color:#fff8f3 ;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: nonn;
+
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-1{
+    color: black;
+    font-weight: bold;
+}
+
+.dark-2{
+    color: #474747;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+    
+   
+}
+.banner-content{
+    max-width:580px ;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+
+}
+.banner-title{
+    margin: 0;
+    font-weight: bold;
+    font-size: 70px ;
+}
+.banner-profile{
+
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-discription{
+    font-size: 18px;
+    color:#757575 ;
+    text-align: center;
+}
+/* main style */
+main{
+    
+    max-width:fit-content;
+    margin: 0;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 30px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-discription{
+    font-weight: 600;
+}
+
+.skill-container{
+    display: flex;
+    gap: 20px;
+    margin: 0px 25px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px #474747;
+}
+
