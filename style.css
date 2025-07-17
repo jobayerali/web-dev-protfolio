@@ -202,9 +202,18 @@ footer input[type="text"], footer input[type="email"],textarea {
 }
 
 @media screen and (max-width:576px) {
-    .skill-container, .resume-container, footer,.about-items{
+    .skill-container, .resume-container, footer,.about-items, .banner, nav, nav > ul{
         flex-direction: column;
         
+    }
+    .banner{
+        margin: 20px;
+    }
+    .header-bg{
+        background-image: none;
+    }
+    nav ul li, button{
+        margin-top: 10px;;
     }
     .about{
         padding: 20px;
